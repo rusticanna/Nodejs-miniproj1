@@ -17,4 +17,4 @@ inquirer
             }
             console.log(chalk.blue(data));
         })
-    })
+    }).catch(()=>{});
